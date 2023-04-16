@@ -1,0 +1,12 @@
+CREATE TABLE contacts (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    age INT(11) NOT NULL,
+    height INT(11) NOT NULL,
+	weight FLOAT(11,2) NOT NULL,
+	gender VARCHAR(255) NOT NULL,
+    allergies TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+);
